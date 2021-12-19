@@ -1,0 +1,61 @@
+@import url(zeroing.css);
+body{
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	background-image: url(../img/backgr.jpg);
+	background-size: cover;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5%;
+}
+#sought-symbol{
+	height: 50px;
+	margin: 30px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	color: #000;
+	transition: 0.5s;
+}
+#sought-symbol:focus, #sought-symbol:hover{
+	box-shadow: inset 0px 0px 10px #fff;
+	background-color: #A07819;
+	color: #fff;
+}
+.NumberOfRepeat{
+	height: 30px;
+	transition: 1s;
+	font-size: 25px;
+}
+.background-color-yellow{
+	background-color: rgba(0, 7, 224, 0.6);;	
+}
+.container__title{
+	width: 100vw;
+	font-weight: 700;
+	padding: 8px 0;
+	letter-spacing: 4px;
+	font-size: 30px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	transition: 0.5s ease-in;
+}
+.container__title:hover{
+	background-color: #fff;
+	color: #000;
+}
+#areaText{
+	width: 90%;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 30px 10px;
+	border-radius: 10px;
+	height: auto;
+	background-color: #fff;
+}

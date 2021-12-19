@@ -1,0 +1,8 @@
+@media screen and (max-width: 510px){
+	#sought-symbol{
+		width: 300px;
+	}
+	#sought-symbol::placeholder{
+		font-size: 13px;
+	}
+}
