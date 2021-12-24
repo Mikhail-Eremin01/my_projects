@@ -1,53 +1,18 @@
 @import url(zeroing.css);
-body{
-	font-family: sans-serif;
-	background-image: url(../img/green.jpg);
-	background-size: cover;
-}
-select{
-	border: 1px solid #000;
-	margin: 15% 0 10%;
-	height: 50px;
-	width: 300px;
-	font-size: 16px;
-	font-family: sans-serif;
-	font-weight: 700;
-	color: #444;
-	padding-left: 8px;
-	border: 1px solid #aaa;
-	border-radius: 7px;
-	 background-color: #fff;
-	background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%,rgba(168,168,168,1) 99%);
-	transition: 0.5s;
-}
-select:hover{
-	cursor: pointer;
-}
-.container{
-	margin: 0 auto;
-	max-width: 70%;
-	background: #DDC387;
+.main-content{
 	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	border-left: 3px solid #fff;
-	border-right: 3px solid #fff;
-	box-sizing: content-box;
 }
-p{
-	font-size: 60px;
-	text-shadow: 0px 2px 2px #fff;
-	letter-spacing: 5px;
+.circle{
+	border-radius: 50%;
+	position: absolute;
 }
-#result-number{
-	transition: 2500ms;
-	opacity: 0%;
+.content{
+	background-color: #BCBCBC;
+}
+.content__title{
+	text-align: center;
 	color: #fff;
-	font-size: 40px;
-	letter-spacing: 50px;
-}
-#result-number:hover{
-	color: #000;
+	font-size: 30px;
+	padding: 20px 0;
+	letter-spacing: 5px;
 }
